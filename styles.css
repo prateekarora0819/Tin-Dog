@@ -1,0 +1,157 @@
+#title{
+    background-color: cadetblue;
+    padding-bottom: 2%;
+}
+
+h1{
+    font-family: 'Coda Caption', sans-serif;
+    color: cornsilk;
+}
+.container{
+    
+   padding:3% 15% 7% ;
+}
+
+.navbar{
+    padding-bottom:6.5rem;
+ 
+    
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.nav-item{
+  padding-left: 100px;
+}
+.nav-link{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+.title-image{
+    width: 20%;
+    height: 90%;
+    transform: rotate(30deg);
+    position: absolute;
+   
+}
+
+#features{
+
+    padding: 8% 16%;
+    background-color: white;
+    position: relative;
+   
+    
+}
+.feature-box{
+
+    text-align: center;
+    padding: 5%;
+}
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   color: dimgray;
+}
+
+p{
+    font-weight: bold;
+    color: darkslategray;
+    
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: cadetblue;
+  
+}
+.icon:hover{
+    color: darkslategrey;
+}
+
+#testimonials{
+    
+    background-color: cadetblue;
+    text-align: center;
+    color:cornsilk;
+    padding: 8% 16%;
+   
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+#press{
+
+    text-align: center;
+    padding-bottom:1%;
+    padding-top: 4%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+
+    padding:70px;
+    text-align: center;
+}
+
+.pricing-column{
+
+    padding:3% 2%; 
+}
+
+@media (max-width:1055px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+
+        position: static;
+        transform:rotate(0);
+        width: 50%;
+        height: 90%;
+        
+    }
+}
+
+
+#cta{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 5% 16%;
+}
+.heading-cta{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:3.5rem;
+} 
+
+#footer{
+
+    padding: 4% 16%;
+    text-align: center;
+
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
